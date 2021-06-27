@@ -4,18 +4,19 @@
     color: seashell;
     background-color: black;
     text-align: center;
-    margin: 0;
-    padding: 0;
+
     
 }
 
 header{
   background-color: black;
   border-bottom: 1px solid seashell;
+  top: 0;
   height: 69px;
   width: 100%;
   display: flex;
   position: fixed;
+  z-index: 1;
 
 }
 
@@ -49,7 +50,7 @@ nav{
     height: 700px;
     width: 1200px;
     position: relative;
-    top: 70px;
+    top: 63px;
 
 }
 
@@ -60,11 +61,37 @@ nav{
     top: -350px;
     align-items: center;
     justify-content: center;
-    margin: auto;
-    padding: 10px;
 }
 
 .our-mission h4{
-    padding-top: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+.tea-of-the-month {
+    width: 1000px;
+    height: auto;
+    position: relative;
+    left: 250px;
+   
+
+}
+
+.tea-of-the-month-headlines h1{
+    font-weight: 900;
+}
+.tea-of-the-month-pictures h1{
+    margin: 10px;
+}
+
+.tea-of-the-month-pictures{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.tea-of-the-month-pictures img{
+    width:300px;
+    height: 200px;
+    margin: 10px;
 }
 
