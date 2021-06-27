@@ -4,6 +4,8 @@
     color: seashell;
     background-color: black;
     text-align: center;
+    margin: 0;
+    padding: 0;
     
 }
 
@@ -43,4 +45,26 @@ nav{
     margin: 10px;
 }
 
+.mission-bg{
+    height: 700px;
+    width: 1200px;
+    position: relative;
+    top: 70px;
+
+}
+
+.our-mission {
+    display: flex;
+    flex-direction: column;
+    position:relative;
+    top: -350px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+}
+
+.our-mission h4{
+    padding-top: 10px;
+}
 
