@@ -4,6 +4,7 @@
     color: seashell;
     background-color: black;
     text-align: center;
+    font-weight: normal;
 
     
 }
@@ -63,6 +64,9 @@ nav{
     justify-content: center;
 }
 
+.our-mission h2{
+    font-weight: bold;
+}
 .our-mission h4{
     margin: 0;
     padding: 0;
@@ -73,6 +77,7 @@ nav{
     height: auto;
     position: relative;
     left: 250px;
+    margin-bottom: 50px;
    
 
 }
@@ -93,5 +98,62 @@ nav{
     width:300px;
     height: 200px;
     margin: 10px;
+}
+
+.location img {
+    height: 500px;
+    width: 1200px;
+    
+}
+
+.location h1{
+    position: relative;
+    background-color: transparent;
+    top: -450px;
+    font-weight: bold;
+  
+    
+}
+
+.location-sites {
+    display: flex;
+    position: relative;
+    top: -465px;
+    background-color: transparent;
+    justify-content: center;
+
+  
+      
+}
+
+.downtown {
+    width: 300px;
+    margin-right: 40px;
+    margin-top: 15px;
+  
+}
+.east-bayside {
+    margin-right: 40px;
+    width: 300px;
+    margin-top: 15px;
+ 
+
+
+}
+.oakdales {
+    width: 300px;
+    margin-top: 15px;
+}
+
+.oakdales span{
+    font-weight: bold;
+}
+
+.east-bayside span {
+    font-weight: bold;
+}
+
+.downtown span {
+    font-weight: bold;
 }
 
